@@ -181,6 +181,12 @@ h1 {
         font-size: 15px;
         color: #ff9a94;
     }
+
+    .container {
+        padding-top: 20px;
+      }
+    
+  
   
 
   
@@ -190,7 +196,7 @@ h1 {
   
     .wrapper {
       width: 100%;
-      padding: 0px;
+      padding: 20px;
     }
 
     #page-name {
@@ -221,7 +227,12 @@ h1 {
         font-size: 15px;
         color: #ff9a94;
     }
+
+    .container {
+        padding-top: 30px;
+    }
     
-    
-    
+    .my-card {
+        padding-top: 80px;
+    }
   }
