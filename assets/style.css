@@ -60,6 +60,13 @@ h1 {
     color: #ff9a94;
 }
 
+.h1Name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    color: #ff9a94;
+    padding: 30px;
+}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -143,3 +150,78 @@ h1 {
     width: 100%;
     height: 90px;
 }
+
+@media screen and (max-width: 768px) {
+  
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+
+    ul {
+      clear: both;
+    }
+
+    main {
+        margin-bottom: 30px;
+        clear: both;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    body {
+        font-size: 20px;
+
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        color: #ff9a94;
+    }
+  
+
+  
+  }
+
+  @media screen and (max-width: 640px) {
+  
+    .wrapper {
+      width: 100%;
+      padding: 0px;
+    }
+
+    #page-name {
+      position: static;
+      width: 100%;
+      }
+
+    ul {
+      clear: both;
+    }
+
+    main {
+      margin-bottom: 30px;
+      clear: both;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    body {
+        font-size: 20px;
+
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        color: #ff9a94;
+    }
+    
+    
+    
+  }
