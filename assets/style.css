@@ -169,6 +169,8 @@ h1 {
 
     p {
         font-size: 20px;
+        /* text-align: left; */
+
     }
 
     body {
@@ -190,7 +192,13 @@ h1 {
       .my-card {
         padding-top: 80px;
     }
-
+    li a {
+        font-size: 20px;
+    }
+    
+    img {
+        height: 60%;
+    }
 
   
   }
@@ -218,6 +226,7 @@ h1 {
 
     p {
         font-size: 20px;
+        /* text-align: left; */
     }
 
     body {
@@ -238,4 +247,13 @@ h1 {
     .my-card {
         padding-top: 80px;
     }
+    li a {
+        font-size: 20px;
+    }    
+
+    img {
+        height: 50px;
+    }
+
+
   }
